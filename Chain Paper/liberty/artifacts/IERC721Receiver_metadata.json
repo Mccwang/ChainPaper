@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "onERC721Received",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shizhan/liberty/IERC721Receiver.sol": "IERC721Receiver"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shizhan/liberty/IERC721Receiver.sol": {
+			"keccak256": "0x9dea646600d229862bea2feec27152b260d56b55333f858d6ba70f7a3c27da7e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d76e5ee0f86e1f102ada021ffe3bb44bf73de560bf0b244d448507ac8e817a03",
+				"dweb:/ipfs/QmfJZ6Y64JMxiAjnVAgDtL3usoXscxC1eNi57p7grUCkcR"
+			]
+		}
+	},
+	"version": 1
+}
