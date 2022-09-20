@@ -1,5 +1,7 @@
 项目名称为ChainPaper，旨在能够将我们自己的论文（paper）等文字性文件铸造为NFT，为本人创造更多价值。
 
+项目主合约：CP.sol
+
 本项目主要实现以下功能：
     1、编写ERC721所需的各个接口：IERC165、IERC721、IERC721Receiver、IERC721Metadata
     2、实现ERC721协议
